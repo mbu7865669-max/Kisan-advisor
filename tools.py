@@ -2,10 +2,10 @@ import json
 from urllib.parse import quote
 from urllib.request import urlopen
 
-from agents import function_tool
 
 
-@function_tool
+
+
 def get_crop_information(crop: str) -> str:
 
 
