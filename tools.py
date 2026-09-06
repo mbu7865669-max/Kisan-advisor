@@ -56,10 +56,10 @@ def get_crop_information(crop: str) -> str:
 from urllib.parse import quote
 from urllib.request import urlopen
 
-from agents import function_tool
 
 
-@function_tool
+
+
 def get_weather(city: str) -> str:
     """Get the current weather and temperature for a city."""
 
