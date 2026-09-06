@@ -2,3 +2,5 @@ streamlit
 pydantic-ai
 pydantic
 google-genai
+agents
+python-dotenv
