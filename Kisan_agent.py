@@ -3,13 +3,8 @@ import os
 from tools import get_crop_information, get_weather, get_market_price
 
 from dotenv import load_dotenv
-from agents import (
-    Agent,
-    Runner,
-    AsyncOpenAI,
-    OpenAIChatCompletionsModel,
-    set_tracing_disabled,
-)
+from pydantic_ai import Agent
+from openai import AsyncOpenAI
 
 # Load API key from .env
 load_dotenv()
