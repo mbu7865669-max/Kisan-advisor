@@ -103,7 +103,7 @@ def get_weather(city: str) -> str:
     )
 if __name__ == "__main__":
     print(get_weather("Lahore"))
-@function_tool
+# @function_tool
 def get_market_price(crop: str) -> str:
     """Get typical (approximate, not live) market price range and selling advice for a crop in Pakistan."""
 
